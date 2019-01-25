@@ -8,7 +8,7 @@ This how-to is supposed for learning and was written for developers who wants to
 > It organizes data as an ordered key-value store and employs [ACID transactions](https://en.wikipedia.org/wiki/ACID) for all operations.
 > It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. 
 
-<sub>You can find the source code for this article [here]().</sub>
+<sub>You can find the source code for this article [here](https://github.com/fishbullet/foundationdb).</sub>
 
 ## Requirements
 
@@ -34,7 +34,7 @@ Also it keeps my host machine clean from the stuff I dont need everyday.
 
 We'll use `Ubuntu 16.04` docker images with a [plain `.deb` installation](https://apple.github.io/foundationdb/local-dev.html#download-the-foundationdb-package).
 Also we'll use some golang code in order to explore the `FoundationDB` features.
-Let's start from cloning the [sources]().
+Let's start from cloning the [sources](https://github.com/fishbullet/foundationdb).
 
 In order to allow containers talk to each other we will use `Docker` network feature.
 Create a network:
