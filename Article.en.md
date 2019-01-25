@@ -2,9 +2,11 @@
 
 ## Purpose
 
-This how-to is supposed to be for learning. It was writen for developers who wants to try the FoundationDB.
+This how-to is supposed for learning and was written for developers who wants to try the FoundationDB.
 
 > [FoundationDB](https://apple.github.io/foundationdb/index.html) is a distributed database designed to handle large volumes of structured data across clusters of commodity servers.
+> It organizes data as an ordered key-value store and employs [ACID transactions](https://en.wikipedia.org/wiki/ACID) for all operations.
+> It is especially well-suited for read/write workloads but also has excellent performance for write-intensive workloads. 
 
 <sub>You can find the source code for this article [here]().</sub>
 
@@ -14,8 +16,8 @@ I assume you have got hand-on experience with `Docker`, also you’re comfortabl
 I'll use some piece of `golang` but you might use another [api language bindings](https://apple.github.io/foundationdb/downloads.html#api-language-bindings). 
 
 <sub>
-You may ask why I use Docker, I found Docker containers are very handy in order to try something new and share the expirience.
-Also it keeps my host machine clean from the stuff I dont need.
+You may ask why I use Docker, I found Docker containers are very handy in order to try something new and share the experience.
+Also it keeps my host machine clean from the stuff I dont need everyday.
 </sub>
 
 ## Checklist
